@@ -1,6 +1,6 @@
 # Cronjobs helpers for EY Cloud
 
-Two definitions for other recipes to create/maintain cronjobs
+Definitions for other recipes to create/maintain/restart cronjobs
 
 ## crond definition
 
@@ -33,4 +33,14 @@ Usage:
 
 ``` ruby
 clean_crond
+```
+
+## restart_cron definition
+
+Restart cron
+
+Usage
+
+``` ruby
+restart_cron
 ```
