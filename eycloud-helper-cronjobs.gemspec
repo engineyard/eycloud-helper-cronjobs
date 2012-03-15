@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Dr Nic Williams"]
   s.email       = ["drnicwilliams@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{Cronjobs helpers for EY Cloud} # from metadata
-  s.description = %q{Cronjobs helpers for EY Cloud} # from metadata long_description
+  s.summary     = %q{Cronjobs definitions for EY Cloud} # from metadata
+  s.description = %q{Cronjobs definitions for EY Cloud} # from metadata long_description
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
