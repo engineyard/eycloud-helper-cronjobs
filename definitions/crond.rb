@@ -1,3 +1,9 @@
+# Example usage:
+# crond "Kill stale resque workers" do
+#   filename "resque_kill_stale"
+#   interval "* * * * *"
+#   command %Q{/usr/local/bin/resque_kill_stale /tmp/resque_ttls}
+# end
 define :crond, :filename => nil, :runner => nil, :interval => nil, :command => nil do
   unless params[:filename] =~ /^[a-z0-9_]+$/i
     raise "Cron name is invalid"

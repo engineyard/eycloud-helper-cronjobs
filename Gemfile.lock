@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    eycloud-recipe-cronjobs (1.0.0)
+    eycloud-helper-cronjobs (1.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -12,5 +12,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  eycloud-recipe-cronjobs!
+  eycloud-helper-cronjobs!
   rake
