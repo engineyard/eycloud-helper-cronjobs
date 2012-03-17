@@ -1,7 +1,7 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
 
-version = "1.0.1" # get from metadata.json or .rb
+version = "1.0.2" # get from metadata.json or .rb
 
 Gem::Specification.new do |s|
   s.name        = "eycloud-helper-cronjobs"

@@ -2,7 +2,7 @@
   "license": "MIT",
   "maintainer": "Engine Yard LLC",
   "maintainer_email": "drnic@engineyard.com",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Cronjobs definitions for EY Cloud",
   "name": "cronjobs",
   "attributes": {
